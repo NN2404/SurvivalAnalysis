@@ -1,1 +1,67 @@
-Survival analysis is the phrase used to describe the analysis of data in the form of times from a well-defined time origin until the occurrence of some particular event or end point. The time origin refers to the time in which an individual enters an experimental study EG.A clinical trial comparing 2 treatments. This time maybe measured in days, months or years depending on the experiment.  The event might refer to the death of a patient, then the recorded data is literally survival times, but the event isn’t limited to the death of a patient. In some cases it might refer to the recurrence of symptoms or in the case of motor vehicles it might refer to the length of time a particular component will last. 
+Survival analysis is the phrase used to describe the analysis of data in the form of times from a well-defined time origin until the 
+occurrence of some particular event or end point. The time origin refers to the time in which an individual enters an experimental 
+study EG.A clinical trial comparing 2 treatments. This time maybe measured in days, months or years depending on the experiment. 
+The event might refer to the death of a patient, then the recorded data is literally survival times, 
+but the event isn’t limited to the death of a patient. In some cases it might refer to the recurrence of symptoms or in
+the case of motor vehicles it might refer to the length of time a particular component will last. 
+
+<pre><code>
+ 
+class Mover { 
+ 
+ 
+ // The Mover tracks location, velocity, and acceleration  
+ PVector location; 
+ PVector velocity; 
+  PVector acceleration; 
+  // The Mover's maximum speed 
+  float topspeed; 
+
+ 
+   Mover() { 
+     // Start in the center 
+    location = new PVector(width/2,height/2); 
+    velocity = new PVector(0,0); 
+    topspeed = 5; 
+   } 
+ 
+ 
+  void update() { 
+     
+    // Compute a vector that points from location to mouse 
+     PVector mouse = new PVector(mouseX,mouseY); 
+     PVector acceleration = PVector.sub(mouse,location); 
+     // Set magnitude of acceleration 
+    acceleration.setMag(0.2); 
+    
+    // Velocity changes according to acceleration 
+    velocity.add(acceleration); 
+    // Limit the velocity by topspeed 
+    velocity.limit(topspeed); 
+    // Location changes by velocity 
+     location.add(velocity); 
+   } 
+
+ 
+  void display() { 
+   stroke(0); 
+    strokeWeight(2); 
+    fill(127); 
+     ellipse(location.x,location.y,48,48); 
+   } 
+
+ 
+ } 
+
+</code></pre>
+
+- item 1 functionname()
+- item 2 function2name()
+- item 3 function3name
+
+
+
+
+
+
+
