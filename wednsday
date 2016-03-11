@@ -60,7 +60,8 @@ class Mover {
 - item 3 function3name
 
 
-
+Survival data is generally not normally distributed. A histogram made up of survival times of a group in an experiment
+will usually form a positively skewed histogram which will contain a long “tail” to the right of the data.
 
 
 
