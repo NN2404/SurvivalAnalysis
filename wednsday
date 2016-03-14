@@ -17,7 +17,9 @@ the case of motor vehicles it might refer to the length of time a particular com
 
 
 Survival data is generally not normally distributed. A histogram made up of survival times of a group in an experiment
-will usually form a positively skewed histogram which will contain a long “tail” to the right of the data.
+will usually form a positively skewed histogram which will contain a long “tail” to the right of the data.This is one 
+reason why survival data is unsuitable to the regular statistical procedures used in survival analysis. The main reason
+is that survival times are nearly always censored.
 
 
 
