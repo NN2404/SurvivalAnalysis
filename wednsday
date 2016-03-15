@@ -21,6 +21,9 @@ will usually form a positively skewed histogram which will contain a long “tai
 reason why survival data is unsuitable to the regular statistical procedures used in survival analysis. The main reason
 is that survival times are nearly always censored.
 
+The survival time of a particular individual is said to be censored the end-point of interest has not been observed for
+that individual. 
+
 
 
 
