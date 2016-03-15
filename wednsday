@@ -23,7 +23,7 @@ is that survival times are nearly always censored.
 
 The survival time of a particular individual is said to be censored the end-point of interest has not been observed for
 that individual. This may occur for a number of reasons. If an individual in the experiment decides to leave the experiment
-before the event of interest has occurred for that individual, their data is said to be censored. 
+before the event of interest has occurred for that individual, their data is said to be censored.  
 
 
 
