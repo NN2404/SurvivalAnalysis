@@ -6,7 +6,22 @@ but the event isn’t limited to the death of a patient. In some cases it might 
 the case of motor vehicles it might refer to the length of time a particular component will last. 
 
 <pre><code>
- \theta
+ 
+loglikePHexp <- function(theta,data){
+
+    ti <- data[,1]
+    di <- data[,2]
+    xi <- as.matrix(data[,-(1:2)])
+
+
+    lam <- exp(theta[1])
+    betas <- theta[-1]
+    phi <- exp(xi%*%betas)
+
+    loglike <- sum(di*(log(phi) + log(lam)) - phi*lam*ti)
+    -loglike
+}
+
  
 
 </code></pre>
