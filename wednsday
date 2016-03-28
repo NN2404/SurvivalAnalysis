@@ -6,14 +6,12 @@ but the event isn’t limited to the death of a patient. In some cases it might 
 the case of motor vehicles it might refer to the length of time a particular component will last. 
 
 <pre><code>
- 
+ \theta
  
 
 </code></pre>
 
-- item 1 functionname()
-- item 2 function2name()
-- item 3 function3name
+
 
 
 Survival data is generally not normally distributed. A histogram made up of survival times of a group in an experiment
