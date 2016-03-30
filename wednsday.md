@@ -39,6 +39,6 @@ that individual. This may occur for a number of reasons. If an individual in the
 before the event of interest has occurred for that individual, their data is said to be censored.  
  
  
-     
+  
        
        
