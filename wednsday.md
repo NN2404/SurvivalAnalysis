@@ -50,7 +50,7 @@ Another type of censoring is interval censoring. This is where an event is known
 By far the most common form of censoring is right censoring and that will be the main form of censoring that I will be covering during this project.
 
   
-       
+   
        
    
      
