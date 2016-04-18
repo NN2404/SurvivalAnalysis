@@ -60,4 +60,4 @@ Let T be a continuous random variable with cumulative distribution function F(t)
 </code></pre>
 
 
-Every survival function S(t) is monotonically decreasing
+Every survival function S(t) is monotonically decreasing. The time, t = 0, represents some origin, typically the beginning of a study or the start of operation of some system. S(0) is commonly unity but can be less to represent the probability that the system fails immediately upon operation. Since the CDF is a right-continuous function, it can be said that the survival function S(t) = 1-F(t) is also right-continuous.
