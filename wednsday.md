@@ -73,3 +73,9 @@ The y axis is the proportion of subjects surviving. At time zero, 100% of the su
 The solid line (similar to a staircase) shows the events.
 A vertical drop indicates an event. In the aml table shown above, two subjects had events at 5 weeks, two had events at 8 weeks, one had an event at 9 weeks, and so on. These events at 5 weeks, 8 weeks and so on are indicated by the vertical drops in the KM plot at those time points.
 At the far right end of the KM plot there is a the tick mark at 161 weeks,. The vertical tick mark indicates that a patient was censored at this time. In the aml data table five subjects were censored, at 13, 16, 28, 45 and 161 weeks. There are five tick marks in the KM plot, corresponding to these censored observations.
+
+
+
+
+
+
