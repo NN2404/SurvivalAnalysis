@@ -75,6 +75,7 @@ A vertical drop indicates an event. In the aml table shown above, two subjects h
 At the far right end of the KM plot there is a the tick mark at 161 weeks,. The vertical tick mark indicates that a patient was censored at this time. In the aml data table five subjects were censored, at 13, 16, 28, 45 and 161 weeks. There are five tick marks in the KM plot, corresponding to these censored observations.
 
 
+![thumbs](https://cloud.githubusercontent.com/assets/16915445/14617579/a22aeb5e-05a6-11e6-88e4-0268b14356d3.jpg)
 
 
 
