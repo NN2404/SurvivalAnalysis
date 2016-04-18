@@ -57,6 +57,7 @@ Let T be a continuous random variable with cumulative distribution function F(t)
 <pre><code>
    S(t) = int_{t}^{\infinite} f(u) du
   
+  S(t) = P(\{T > t\}) = \int_t^{\infty} f(u)\,du = 1-F(t).
 </code></pre>
 
 
