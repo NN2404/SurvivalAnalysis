@@ -58,3 +58,6 @@ Let T be a continuous random variable with cumulative distribution function F(t)
    S(t) = int_{t}^{\infinite} f(u) du
   
 </code></pre>
+
+
+Every survival function S(t) is monotonically decreasing
