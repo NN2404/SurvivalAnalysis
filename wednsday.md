@@ -55,10 +55,21 @@ The term reliability function is common in engineering while the term survival f
    
 Let T be a continuous random variable with cumulative distribution function F(t) on the interval [0,∞). Its survival function or reliability function is:
 <pre><code>
-   S(t) = int_{t}^{\infinite} f(u) du
-  
+
   S(t) = P(\{T > t\}) = \int_t^{\infty} f(u)\,du = 1-F(t).
 </code></pre>
 
 
 Every survival function S(t) is monotonically decreasing. The time, t = 0, represents some origin, typically the beginning of a study or the start of operation of some system. S(0) is commonly unity but can be less to represent the probability that the system fails immediately upon operation. Since the CDF is a right-continuous function, it can be said that the survival function S(t) = 1-F(t) is also right-continuous.
+
+The Survival function S(t), is the probability that a subject survives longer than time t. S(t) is theoretically a smooth curve, but it is usually estimated using the Kaplan-Meier(KM) curve. The graph shows the KM plot for the aml data.
+
+
+Kaplan-Meier plot of AML survival data set
+The KM plot is interpreted as follows.
+
+The x-axis is time, from zero (when observation began) to the last observed time point.
+The y axis is the proportion of subjects surviving. At time zero, 100% of the subjects are alive without an event.
+The solid line (similar to a staircase) shows the events.
+A vertical drop indicates an event. In the aml table shown above, two subjects had events at 5 weeks, two had events at 8 weeks, one had an event at 9 weeks, and so on. These events at 5 weeks, 8 weeks and so on are indicated by the vertical drops in the KM plot at those time points.
+At the far right end of the KM plot there is a the tick mark at 161 weeks,. The vertical tick mark indicates that a patient was censored at this time. In the aml data table five subjects were censored, at 13, 16, 28, 45 and 161 weeks. There are five tick marks in the KM plot, corresponding to these censored observations.
