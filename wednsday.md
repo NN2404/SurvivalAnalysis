@@ -49,7 +49,9 @@ Interval Censoring
 Another type of censoring is interval censoring. This is where an event is known to have occurred for an individual during a known period of time, but it is not known the exact time this event occurred. Again consider the example for left censoring. During the first check-up after one month a certain individual is known to be free of symptoms one but during their second check-up after two months that individual starts to experience recurring symptoms. It is impossible to determine the examine the exact time in which symptoms started reoccurring, all we know is that it happened between the individuals first and second check-up. This individual’s statistical data would therefore have to be censored and so this form of censoring is known as interval censoring.  Interval censoring incorporates both right censoring. In essence it is censoring between two points in time (say t1 and t2). If t1 is 0 then it is simply left censoring.
 By far the most common form of censoring is right censoring and that will be the main form of censoring that I will be covering during this project.
 
-  
+  The survival function, also known as a survivor function or reliability function, is a property of any random variable that maps a set of events, usually associated with mortality or failure of some system, onto time. It captures the probability that the system will survive beyond a specified time.
+
+The term reliability function is common in engineering while the term survival function is used in a broader range of applications, including human mortality. Another name for the survival function is the complementary cumulative distribution function.
    
        
    
