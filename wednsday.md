@@ -53,6 +53,8 @@ By far the most common form of censoring is right censoring and that will be the
 
 The term reliability function is common in engineering while the term survival function is used in a broader range of applications, including human mortality. Another name for the survival function is the complementary cumulative distribution function.
    
-       
-   
+Let T be a continuous random variable with cumulative distribution function F(t) on the interval [0,∞). Its survival function or reliability function is:
+<pre><code>
+   S(t) = int_{t}^{\infinite} f(u) du
   
+</code></pre>
